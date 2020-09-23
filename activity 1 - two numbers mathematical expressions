@@ -1,0 +1,50 @@
+////////////////////////////////////////////////
+//        CODED BY TRULY YOURS HERC POGI      //
+//                                            //
+////////////////////////////////////////////////
+
+#include <iostream>
+
+using namespace std;
+int main() {
+	
+	int num1, num2;
+	cout << "[+]~enter two numbers to add~[+]\n";
+	cout << "\nEnter first number: ";
+	cin >> num1;
+	
+	cout << "Enter second number: ";
+	cin >> num2;
+	cout << "The sum of two number you entered is: "<<(num1+num2)<<"\n";
+	cout << "---------------------------------------------------\n";
+	
+	cout << "[-]~enter two numbers to subtract~[-]\n";
+	cout << "\nEnter first number: ";
+	cin >> num1;
+	
+	cout << "Enter second number: ";
+	cin >> num2;
+	cout << "The difference of two number you entered is: "<<(num1-num2)<<"\n";
+	cout << "---------------------------------------------------\n";
+	
+	cout << "[*]~enter two numbers to multiply~[*]\n";
+	cout << "\nEnter first number: ";
+	cin >> num1;
+	
+	cout << "Enter second number: ";
+	cin >> num2;
+	cout << "The product of two number you entered is: "<<(num1*num2)<<"\n";
+	cout << "---------------------------------------------------\n";
+	
+	cout << "[/]~enter two numbers to divide~[/]\n";
+	cout << "\nEnter first number: ";
+	cin >> num1;
+	
+	cout << "Enter second number: ";
+	cin >> num2;
+	cout << "The qoutient of two number you entered is: "<<(num1/num2)<<"\n";
+	cout << "---------------------------------------------------\n";
+	
+	
+	return 0;
+}
