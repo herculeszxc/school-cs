@@ -1,0 +1,42 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+
+   int num1 = 5, num2 = 7;
+   float float1 = 3.7, float2 = 8.0;
+   
+   cout << "FIRST MONTHLY EXAM : HERC BANDIOLA\n";
+
+   cout << "Various type or arithmetic operation using mixed data type :\n";
+    
+   cout << fixed << setprecision(1);  
+   cout <<" "<< num1 << " + " << num2 << " = " << num1+num2 << "\n";
+   cout <<" "<< float1 << " + " << float2 << " = " << float1+float2 << "\n";
+   cout <<" "<< num1 << " + " << float2 << " = " << num1+float2 << "\n";
+   cout <<" "<< num1 << " - " << num2 << " = " << num1-num2 << "\n";  
+   cout <<" "<< float1 << " - " << float2 << " = " << float1-float2 << "\n";
+   cout <<" "<< num1 << " - " << float2 << " = " << num1-float2 << "\n";  
+   cout <<" "<< num1 << " * " << num2 << " = " << num1*num2 << "\n"; 
+   cout <<" "<< float1 << " * " << float2 << " = " << float1*float2 << "\n"; 
+   cout <<" "<< num1 << " * " << float2 << " = " << num1*float2 << "\n";
+   cout <<" "<< num1 << " / " << num2 << " = " << num1/num2 << "\n";  
+   cout <<" "<< float1 << " / " << float2 << " = " << float1/float2 << "\n";
+   cout <<" "<< num1 << " / " << float2 << " = " << num1/float2 << "\n";  
+   cout << "\n";
+   return 0;
+
+   /* OUTPUT : 
+   5 + 7 = 12 
+   3.7 + 8.0 = 11.7 
+   5 + 8.0 = 13.0 
+   5 - 7 = -2 
+   3.7 - 8.0 = -4.3 
+   5 - 8.0 = -3.0 
+   5 * 7 = 35 
+   3.7 * 8.0 = 29.6 
+   5 * 8.0 = 40.0 
+   5 / 7 = 0 
+   3.7 / 8.0 = 0.5 
+   5 / 8.0 = 0.6 */	
+}
