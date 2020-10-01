@@ -6,7 +6,7 @@ int main() {
    int num1 = 5, num2 = 7;
    float float1 = 3.7, float2 = 8.0;
    
-   cout << "FIRST MONTHLY EXAM : HERC BANDIOLA\n";
+   /*cout << "FIRST MONTHLY EXAM : HERC BANDIOLA\n";*/
 
    cout << "Various type or arithmetic operation using mixed data type :\n";
     
