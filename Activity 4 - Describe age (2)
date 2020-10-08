@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int num1;
+    cout<< "Enter your age ";
+    cin>>num1;
+    
+    if(num1 <= 18)
+    {
+	cout<<"You are child";
+    }
+    else if(num1 >= 19 && num1 <= 30)
+    {
+	cout<<"You are young";
+    }
+    else if (num1 >= 31 && num1 <= 60)
+    {
+	cout<<"You are middle age";
+    }
+    else
+    {
+    cout<<"Out of this world.";
+    }
+    return 0;
+}
