@@ -32,10 +32,18 @@ int main()
     int total = burgerPrice*burger+drinksPrice*drinks+friesPrice*fries;
     
     cout<<total;
+    
     int payment;
-    cout<<"\nPayment: ";
+    cout<<"\nPayment:" ;
     cin>>payment;
-    cout<<"Change: ";
-    cout<<payment - total; //output
+    
+        if(payment < total) {
+        cout<<"kulang pera mo ng ";
+        cout<<abs(payment-total);
+        }else{
+        cout<<"Thank you, your change is: ";
+        cout<<payment - total;
+        };
+    
     return 0;
 }
