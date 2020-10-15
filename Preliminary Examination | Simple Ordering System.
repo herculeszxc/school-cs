@@ -1,0 +1,41 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    ////////////////////////////////////////////////
+    //        CODED BY TRULY YOURS HERC           //
+    //             PRELIM EXAMINATION             //
+    ////////////////////////////////////////////////
+    int burgerPrice = 25;
+    int drinksPrice = 12;
+    int friesPrice = 45;
+    int burger;
+    int drinks;
+    int fries;
+        cout<<"Choose your Order:\n";
+        cout<<"Burger = 25Pesos\n";
+        cout<<"Softdrinks = 12Pesos\n";
+        cout<<"Frenchfries = 45Pesos\n";
+        cout<<"===============================\n";
+    
+            cout<<"Burger: ";
+            cin>>burger;
+            cout<<"Softdrinks: ";
+            cin>>drinks;
+            cout<<"Frenchfries: ";
+            cin>>fries;
+            cout<<"Total: ";
+    
+    int total = burgerPrice*burger+drinksPrice*drinks+friesPrice*fries;
+    
+    cout<<total;
+    int payment;
+    cout<<"\nPayment: ";
+    cin>>payment;
+    cout<<"Change: ";
+    cout<<payment - total; //output
+    return 0;
+}
