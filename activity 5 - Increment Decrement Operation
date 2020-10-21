@@ -1,0 +1,23 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    int x = 57;
+    cout<<"The number is: "<<x;
+    x++;
+    cout<<"\nAfter post increment by 1 the number is: "<<x;
+    ++x;
+    cout<<"\nAfter pre increment by 1 the number is: "<<x;
+    x = x+1;
+    cout<<"\nAfter increasing by 1 the number is: "<<x;
+    x--;
+    cout<<"\nAfter post decrement by 1 the number is: "<<x;
+    --x;
+    cout<<"\nAfter pre decrement by 1 the number is: "<<x;
+    x = x-1;
+    cout<<"\nAfter decreasing by 1 the number is: "<<x;
+    return 0;
+}
