@@ -1,0 +1,43 @@
+// Example program
+#include <iostream>
+ 
+using namespace std;
+int main()
+{
+    float numberDays = 15;
+    float ratePerDay = 495;
+    float overTime = 10;
+    float perHour = 61.87;
+ 
+    float overTimeRate = perHour*1.5*overTime;
+ 
+    float grossIncome = numberDays*ratePerDay+overTimeRate;
+ 
+    float phHealth = 0.02*grossIncome;
+    float sss = 0.05*grossIncome;
+    float tax = 0.05*grossIncome;
+    float pagIbig = 0.0002*grossIncome;
+    float loan = 50000;
+ 
+    float total = phHealth + sss + tax + pagIbig + loan;
+    float totalNetIncome = phHealth + sss + tax + pagIbig + loan - grossIncome;
+ 
+    cout<<"\nNumber of days: "<<numberDays;
+    cout<<"\nRate per day(8hrs): "<<ratePerDay;
+    cout<<"\nOvertime: "<<overTime;
+    cout<<"\nPer hour: "<<perHour;
+    cout<<"\nOvertime rate: "<<overTimeRate;
+    cout<<"\nGross income: "<<grossIncome;
+ 
+    cout<<"\n--------------------------------------------------";
+ 
+    cout<<"\nPhilhealth: "<<phHealth;
+    cout<<"\nSS: "<<sss;
+    cout<<"\nTAX: "<<tax;
+    cout<<"\nPAG-IBIG: "<<pagIbig;
+    cout<<"\nLoan: "<<loan;
+    cout<<"\nTotal Deduction: "<<total;
+    cout<<"\nTotal income: "<<totalNetIncome;
+    return 0;
+ 
+}
