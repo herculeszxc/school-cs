@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num,input,sum=0;
+    cout<<"Display n terms of natural number and their sum:\n";
+    cout<<"---------------------------------------------\n";
+    cout<<"Input a number of terms \n";
+    cin>>input;
+    for (num = 1; num <= input; num++) 
+    {
+        cout << num << " ";
+		sum=sum+num;
+    }
+    cout<<"\n---------------------------------------------";
+    cout<<"\nThe sum of first 10 natural numbers: "<<sum;
+}
