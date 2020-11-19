@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    /*Herc Bandiola midterm examination*/
+    
+    float prelim, midterm, final;
+    cout << "//////////////////////////////////////\n";
+    cout << " =>  Lets compute your grade ^_^  <= ";
+    cout << "\n//////////////////////////////////////\n";
+    cout << "Enter your score on Prelim examination.\n";
+    cin >> prelim;
+    cout << "Enter your score on Midterm examination.\n";
+    cin >> midterm;
+    cout << "enter your Finals examination score.\n";
+    cin >> final;
+    cout << "-------------------------------------|\n";
+    float total = prelim + midterm + final;
+    float totalAve = total / 3;
+    cout << "Your total average is : ";
+    cout << totalAve;
+    cout << "\n-------------------------------------|\n";
+    cout << "Your final rating is : ";
+    if( totalAve > 97 )
+        {
+                cout << "1.00";
+        }
+        else if( totalAve >= 94 && totalAve < 96)
+        {
+                cout << "1.25";
+        }
+        else if( totalAve >= 91 && totalAve < 93)
+        {
+                cout << "1.50";
+        }
+        else if(totalAve >= 88 && totalAve < 90)
+        {
+                cout << "1.75";
+        }
+        else if(totalAve >= 85 && totalAve < 87)
+        {
+                cout << "2.00";
+        }
+        else if(totalAve >= 82 && totalAve < 84)
+        {
+                cout << "2.25";
+        }
+        else if(totalAve >= 79 && totalAve < 81)
+        {
+                cout << "2.50";
+        }
+        else if(totalAve >= 76 && totalAve < 78)
+        {
+                cout << "2.75";
+        }
+        else if(totalAve >= 75)
+        {
+                cout << "2.00";
+        }
+        else
+        {
+                cout << "5.00";
+        }
+    cout << "\n-------------------------------------|\n";
+    return 0;
+}
